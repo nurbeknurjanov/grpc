@@ -8,6 +8,6 @@ const server = new Server();
 server.addService(UsersService, new UsersServiceClass());
 server.addService(CommonService, new CommonServiceClass());
 
-server.bind(`localhost:4000`, ServerCredentials.createInsecure());
+server.bind(`165.227.207.19:4000`, ServerCredentials.createInsecure());
 server.start();
 
