@@ -1,0 +1,7 @@
+FROM node
+
+WORKDIR /workdir
+
+COPY . /workdir
+
+CMD ["npm", "run", "server"]
